@@ -1,10 +1,11 @@
+"use client";
 import Link from "next/link";
 import React, {useState} from "react";
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 const NavBar = () => {
     const [nav, setNav] = useState(false);
-    
+
     const handleNav = () => {
         setNav(!nav)
     }
