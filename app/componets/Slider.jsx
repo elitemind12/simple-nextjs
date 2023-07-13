@@ -19,7 +19,7 @@ const Slider = ({slides}) => {
         return null;
     }
     return(
-        <div id='gallery' className='max-w-[1240px] mx-auto'>
+        <div id='gallery' className='max-w-[1240px] mx-auto mb-12'>
           <h1 className='text-2xl font-bold text-center p-4'>Gallery</h1>
           <div>
             {sliderData.map((slide, index) => {
